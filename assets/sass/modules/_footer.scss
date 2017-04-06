@@ -1,0 +1,37 @@
+footer{
+  text-align: center;
+
+  .nav{
+    display: inline-flex;
+    margin-bottom: 5px;
+
+    li{
+      display: flex;
+      align-items: center;
+
+      a{
+        color: #9a9a9a;
+        font-size: 13px;
+        text-align: center;
+      }
+    }
+
+    li::after{
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 13px;
+      margin: 0 4px;
+      background: #9a9a9a;
+    }
+
+    li:last-child::after{
+      display: none;
+    }
+
+  }
+  .author{
+    color: #9a9a9a;
+    font-size: 13px;
+  }
+}

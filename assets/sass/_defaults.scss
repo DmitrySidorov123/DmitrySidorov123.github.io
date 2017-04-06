@@ -1,0 +1,24 @@
+html, body, .main-wrapper {
+    height: 100%;
+    font-family: Arial;
+}
+
+body{
+    background-color: #f0f4e3;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+$orange: #ee5319;
+
+input, button, select{
+    padding: 0;
+    outline:none;
+}
+
+img{
+    display: block;
+}
+
+
